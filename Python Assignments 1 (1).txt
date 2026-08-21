@@ -1,0 +1,173 @@
+
+### 1. Python Basics and Variables
+1. Write a Python program to swap two numbers without using a temporary variable.
+2. Explain the difference between `is` and `==` with an example.
+3. How can you convert a binary number (given as a string) to its decimal equivalent in Python?
+4. Write a Python program to check if a variable is of a certain data type without using `isinstance()`.
+5. Create a program to perform bitwise operations on two integers and explain the results.
+
+### 2. Data Types and Operations
+6. Explain the immutability of tuples with a code example.
+7. Write a Python script to find the difference between two sets and explain the use cases.
+8. How can you merge two dictionaries in Python 3.9+? Provide a code example.
+9. Write a program to unpack a list into variables and explain the concept of unpacking.
+10. Create a Python script that finds the most frequent element in a list using `Counter` from `collections`.
+
+### 3. Control Structures
+11. Write a Python program that checks whether a string is a palindrome without using string slicing.
+12. Explain how the ternary operator in Python can be used with an example.
+13. Write a Python program to print the Fibonacci sequence up to a certain number, using iterative method. 
+14. Implement a Python script to calculate the factorial of a number without using recursion.
+15. Create a Python program that finds all prime numbers within a given range.
+
+### 4. Lists and List Comprehensions
+16. Write a Python program to flatten a nested list using list comprehension.
+17. Implement a Python script to remove duplicates from a list without using set().
+18. Write a Python program that rotates a list `n` places to the left.
+19. Create a list comprehension that generates a list of squares for the first 10 natural numbers, but only include squares that are even.
+20. Write a Python program that checks if two lists are circularly identical.
+
+### 5. Tuples
+21. Write a Python program to find the index of a tuple in a list of tuples where the second element of the tuple matches a given value.
+22. Implement a Python program that converts a list of tuples into a dictionary where the first element of the tuple is the key and the second is the value.
+23. Write a Python program to perform element-wise addition of two tuples.
+24. Create a Python program that returns the common elements between two tuples.
+25. Implement a Python script to sort a list of tuples based on the sum of their elements.
+
+### 6. Dictionaries
+26. Write a Python program to create a dictionary from a list of keys with a default value.
+27. Implement a Python script that inverts the keys and values of a dictionary.
+28. Write a Python program to merge two dictionaries by adding values for common keys.
+29. Create a Python program that sorts a dictionary by its values, both ascending and descending.
+30. Write a Python program that groups a list of dictionaries by the value of a common key.
+
+### 7. Sets
+31. Implement a Python program to check if one set is a subset of another without using the `issubset()` method.
+32. Write a Python script to find the symmetric difference between two sets.
+33. Create a Python program that returns all subsets of a given set.
+34. Write a Python program to check if a set is a superset of another set without using `issuperset()`.
+35. Implement a Python script that performs set operations (union, intersection, difference) on two sets and displays the results.
+
+### 8. Strings
+36. Write a Python program to count the occurrences of each word in a given string.
+37. Implement a Python script to reverse the words in a sentence without reversing the individual words.
+38. Write a Python program that removes all non-alphanumeric characters from a string.
+39. Create a Python script to check if a string contains only unique characters without using additional data structures.
+40. Write a Python program to find the longest substring without repeating characters in a given string.
+
+### 9. Functions
+41. Implement a Python function that returns a dictionary where the keys are the characters in a string and the values are their frequencies.
+42. Write a Python function that takes a variable number of keyword arguments and returns a sorted list of keys.
+43. Create a Python function that accepts another function as an argument and applies it to a list of values.
+44. Implement a Python function that returns the nth Fibonacci number.
+45. Write a Python function that accepts a list of tuples and returns a list of the second elements from each tuple.
+
+### 10. Lambda Functions
+46. Write a Python program to filter a list of integers, keeping only those that are divisible by a certain number, using a lambda function.
+47. Create a Python function that uses a lambda function to sort a list of dictionaries by a specific key.
+48. Implement a Python script that applies a lambda function to square all elements in a list.
+49. Write a Python function that uses a lambda function to find the maximum value in a list of tuples based on the second element.
+50. Create a Python program that uses a lambda function to combine two lists element-wise.
+
+### 11. Map, Filter, Reduce
+51. Implement a Python script that uses `map()` to convert a list of strings to uppercase.
+52. Write a Python program that uses `filter()` to extract even numbers from a list of integers.
+53. Create a Python function that uses `reduce()` to compute the product of a list of numbers.
+54. Implement a Python script that uses `map()` to calculate the square root of a list of numbers.
+55. Write a Python program that uses `filter()` to remove all empty strings from a list.
+
+### 12. List and Dictionary Comprehensions
+56. Write a Python program to create a dictionary from two lists using dictionary comprehension.
+57. Implement a Python function to create a list of tuples from two lists, with the first list as the first element and the second list as the second element.
+58. Create a Python script that generates a dictionary where the keys are integers and the values are their squares, but only include keys that are even.
+59. Write a Python program to create a list of the lengths of the words in a given sentence using list comprehension.
+60. Implement a Python function that generates a dictionary of characters and their counts from a given string using dictionary comprehension.
+
+### 13. More on Functions
+61. Write a Python function that takes a list of dictionaries and returns a list of all unique keys present in any of the dictionaries.
+62. Create a Python function that takes a string and returns a dictionary with the count of each consonant in the string (case-insensitive).
+63. Create a Python function that takes a list of dictionaries and returns a list of values for a specified key.
+64. Implement a Python function that takes a variable number of positional arguments and returns their product.
+65. Write a Python function that takes a string and returns a dictionary with the count of each vowel in the string.
+
+
+### 14. More on Functions
+66. Write a Python function that takes a list of strings and returns a new list with each string reversed.
+67. Write a Python function that takes a dictionary and returns a new dictionary with the keys and values swapped.
+68. Write a Python function that takes a list of integers and returns a new list with only the even numbers.
+69. Write a Python function that takes any number of positional arguments and returns their sum.
+70. Write a Python function that takes a list of integers and returns a new list where each integer is replaced by the product of all other integers in the list.
+
+
+### 15. Randomization
+71. Write a Python program to simulate a simple dice roll.
+72. Implement a Python script to generate a random password with a mix of uppercase, lowercase, numbers, and special characters.
+73. Create a Python function that shuffles a list in place without using the `random.shuffle()` method.
+74. Write a Python script to generate random samples from a given list of elements.
+75. Implement a Python function that generates a random float between two given numbers.
+
+### 16. Date and Time
+76. Write a Python program to calculate the number of days between two dates.
+77. Implement a Python script to convert a date string from one format to another.
+78. Create a Python function that adds a specified number of days to a given date.
+79. Write a Python program to find the day of the week for a given date.
+80. Implement a Python script to find the difference between two times in hours and minutes.
+
+### 17. String Manipulation
+81. Write a Python function to count the number of vowels in a string.
+82. Implement a Python script to reverse each word in a string while maintaining their original order.
+83. Create a Python function to check if two strings are anagrams.
+84. Write a Python script to remove leading and trailing spaces from a string without using `strip()`.
+85. Implement a Python function to capitalize the first letter of each word in a string without using the `title()` method.
+
+### 18. Advanced Functions
+86. Write a Python function that returns the composition of two functions passed as arguments.
+87. Implement a Python script that applies multiple functions sequentially to a list of values.
+88. Create a Python function that curries another function, transforming it so it can be called with multiple sets of arguments.
+89. Write a Python function that takes a function as an argument and returns a new function that behaves as the opposite of the original.
+90. Implement a Python function that memorizes (caches) the results of a function.
+
+### 19. Decorators
+91. Write a decorator timer that prints "Function <function_name> started" before and "Function <function_name> ended" after the decorated function runs. Apply it to a function that returns the sum of two numbers. Input: add(2, 3) → Output: Prints start/end messages and returns 5.
+92. Create a decorator uppercase_output that converts the string output of the decorated function to uppercase. Apply it to a function that returns 'hello world'. Input: greet() → Output: 'HELLO WORLD'
+93. Write a decorator double_result that doubles the numeric result of the decorated function. Apply it to a function that returns the product of two numbers. Input: multiply(3, 4) → Output: 24
+94. Create a decorator add_greeting that adds "Hello, " before the string returned by the decorated function. Apply it to a function that returns a name. Input: get_name() returns 'Alice' → Output: 'Hello, Alice'
+95. Write a decorator repeat that repeats the output of the decorated function three times, separated by spaces. Apply it to a function that returns 'wow'. Input: say_wow() → Output: 'wow wow wow'
+
+### 20. Built-in Functions
+96. Use zip() and map() to combine two lists, names = ['Alice', 'Bob'] and scores = [90, 85], into a list of strings like ['Alice: 90', 'Bob: 85'].
+97. Write a function that takes a list of strings and returns True if any string contains only digits, using any(). Input: ['abc', '123', 'xyz'] → Output: True
+98. Given a list of numbers, use sum() and len() to return the average as a float. Input: [2, 4, 6, 8] → Output: 5.0
+99. Write a function that uses enumerate() to return a list of tuples (index, value) for a given list. Input: ['a', 'b', 'c'] → Output: [(0, 'a'), (1, 'b'), (2, 'c')]
+100. Given a list of words, use sorted() and a lambda to return the list sorted by the number of vowels in each word. Input: ['apple', 'banana', 'pear'] → Output: ['pear', 'apple', 'banana']
+
+### 21. Functions & Arguments
+101. Write a function flatten_list(nested) that takes a nested list of integers (e.g., [1, [2, 3], [4, [5]]]) and returns a flat list of all integers (e.g., [1, 2, 3, 4, 5]).
+102. Create a function merge_dicts(*dicts) that accepts any number of dictionaries and returns a single dictionary containing all key-value pairs. If a key appears in multiple dictionaries, the value from the last dictionary should be used. Input: {'a': 1}, {'b': 2}, {'a': 3} → Output: {'a': 3, 'b': 2}
+103. Write a function custom_range(start, stop, step=1) that mimics Python’s built-in range() and returns a list of integers from start up to but not including stop, incremented by step. Input: custom_range(2, 10, 3) → Output: [2, 5, 8]
+104. Define a function repeat_string(s, n=1) that takes a string s and an integer n, and returns a single string with s repeated n times, separated by commas. Input: repeat_string('hi', 3) → Output: 'hi,hi,hi'
+105. Create a function find_max_min(*args) that takes any number of numeric arguments and returns a tuple (max, min) of the maximum and minimum values. Input: find_max_min(1, 5, 3, 9) → Output: (9, 1)
+
+
+### 22. Arguments (Positional, Keyword, *args, **kwargs)
+106. Write a function describe_person(name, age, **attributes) that returns a string in the format: "Name: <name>, Age: <age>, Height: <height>, Weight: <weight>" if height and weight are provided as keyword arguments. Input: describe_person('Alice', 30, height=165, weight=60) → Output: 'Name: Alice, Age: 30, Height: 165, Weight: 60'
+107. Create a function sum_numbers(*args) that returns the sum of all numeric positional arguments. Input: sum_numbers(2, 4, 6) → Output: 12
+108. Write a function build_sentence(*words, punctuation='.') that joins any number of string arguments into a sentence ending with the specified punctuation. Input: build_sentence('Hello', 'world', punctuation='!') → Output: 'Hello world!'
+109. Define a function filter_kwargs(**kwargs) that returns a dictionary containing only the keyword arguments where the value is not None. Input: filter_kwargs(a=1, b=None, c=3) → Output: {'a': 1, 'c': 3}
+110. Write a function apply_operation(operation, *args) where operation is either 'add' or 'multiply'. Return the sum or product of all positional arguments accordingly. Input: apply_operation('multiply', 2, 3, 4) → Output: 24
+
+
+### 23. Lambda Functions
+111. Given a list of integers, use a lambda function with filter() to return a new list containing only numbers greater than or equal to 10. Input: [4, 12, 7, 15] → Output: [12, 15]
+112. Write a function that takes a list of strings and returns a new list sorted by string length using a lambda as the key. Input: ['cat', 'elephant', 'dog'] → Output: ['cat', 'dog', 'elephant']
+113. Given a list of tuples (name, age), return the list sorted by age using a lambda function. Input: [('Alice', 30), ('Bob', 25)] → Output: [('Bob', 25), ('Alice', 30)]
+114. Given a dictionary of items and prices, use a lambda function with filter() to return a list of items (keys) with prices greater than 20. Input: {'apple': 10, 'banana': 25, 'cherry': 30} → Output: ['banana', 'cherry']
+115. Write a function that takes a list of numbers and returns a list of their cubes using map() and a lambda function. Input: [2, 3, 4] → Output: [8, 27, 64]
+
+
+### 24. String Methods
+116. Write a function that takes a string and returns True if it is a palindrome (ignoring case and spaces), False otherwise. Input: 'A man a plan a canal Panama' → Output: True
+117. Create a function that replaces all vowels in a string with asterisks (*). Input: 'hello world' → Output: 'h*ll* w*rld'
+118. Write a function that counts the number of unique words in a string, ignoring case and punctuation. Input: 'Hello, hello! World.' → Output: 2
+119. Given a string, return a new string with each word capitalized (like title case), but do not use the built-in title() method. Input: 'python is fun' → Output: 'Python Is Fun'
+120. Write a function that finds and returns the longest word in a string. If there are multiple, return the first one. Input: 'I love programming in Python' → Output: 'programming'
